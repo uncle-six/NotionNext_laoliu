@@ -231,6 +231,14 @@ const Style = () => {
         scrollbar-width: thin;
         scrollbar-color: var(--theme-color) transparent;
       }
+
+      /* 隐藏但不停止统计：不蒜子统计容器 */
+      .busuanzi_container_site_pv,
+      .busuanzi_container_site_uv,
+      .busuanzi_container_page_pv {
+        display: none !important;
+      }
+
     `}</style>
   )
 }

@@ -2,10 +2,7 @@ const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
   // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
   HEXO_HOME_BANNER_GREETINGS: [
-    'Hi，我是一个程序员',
-    'Hi，我是一个打工人',
-    'Hi，我是一个干饭人',
-    '欢迎来到我的博客🎉'
+    'Hi，我是一个不爱写代码的程序员,人生三大爱好：读书、远行、退休！,欢迎来到我的博客🎉'
   ], // 首页大图标语文字
 
   HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
@@ -25,7 +22,7 @@ const CONFIG = {
   HEXO_POST_LIST_COVER: true, // 列表显示文章封面
   HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
 
-  HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
+  HEXO_POST_LIST_COVER_DEFAULT: false, // 封面为空时用站点背景做默认封面
   HEXO_POST_LIST_SUMMARY: true, // 文章摘要
   HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
   HEXO_POST_LIST_IMG_CROSSOVER: false, // 博客列表图片左右交错
