@@ -24,6 +24,7 @@ const SocialButton = () => {
   const CONTACT_XIAOHONGSHU = siteConfig('CONTACT_XIAOHONGSHU')
   const CONTACT_ZHISHIXINGQIU = siteConfig('CONTACT_ZHISHIXINGQIU')
   const CONTACT_WEHCHAT_PUBLIC = siteConfig('CONTACT_WEHCHAT_PUBLIC')
+  const CONTACT_DOUYIN = siteConfig('CONTACT_DOUYIN')
 
   const [qrCodeShow, setQrCodeShow] = useState(false)
 
@@ -127,6 +128,15 @@ const SocialButton = () => {
             title={'youtube'}
             href={CONTACT_YOUTUBE}>
             <i className='transform hover:scale-125 duration-150 fab fa-youtube dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
+        {CONTACT_DOUYIN && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'抖音'}
+            href={CONTACT_DOUYIN}>
+            <i className='transform hover:scale-125 duration-150 fab fa-tiktok dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
         {CONTACT_XIAOHONGSHU && (
